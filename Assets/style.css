@@ -8,14 +8,33 @@
     margin: 0;
     border: 2px blueviolet;
 }
-    body {
+body {
     background-color: rgb(14, 173, 17);
 }
 header {
     margin-bottom: 10px;
     height: 40px;
+    width:1280px;
     background-color: yellow;
     color: black;
+}
+h1 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 453px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 24px;
+    margin-block-start: 13.28px;
+    margin-block-end: 13.28px;
+    margin-inline-start: 55px;
+    margin-inline-end: -6px;
+    font-weight: bold;
 }
 img {
     height: 100px;
@@ -23,9 +42,17 @@ img {
     margin: 1px;
     float: none;
 }
-nav {
-    width: 100%;
+.paragraph {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+.navbar {
+    width: 3115px;
+    padding: 12px;
+    border: 6px solid gray;
+    margin: 9;
     display: flex;
-
+    margin-left: 1286px;
 }
 
